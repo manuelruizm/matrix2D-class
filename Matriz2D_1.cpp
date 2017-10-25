@@ -44,8 +44,8 @@ Matriz2D_1 :: Matriz2D_1 (int orden)
 
 //*****************************************************************************
 // Constructor de matrices rectangulares
-Matriz2D_1 :: Matriz2D_1 (int fils, int cols) 
-		: filas(fils), columnas(cols) 
+Matriz2D_1 :: Matriz2D_1 (int filitas, int columnitas) 
+		: filas(filitas), columnas(columnitas) 
 {
 	ReservarMemoria(filas, columnas);
 }
